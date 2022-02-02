@@ -1,0 +1,190 @@
+
+body{
+  font: family: 'Oswald', sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+p{
+font-size: 15px;
+}
+
+li {
+list-style: initial;
+margin-right: 80px;
+}
+
+.primer-elemento{
+  color: red;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.lista {
+  display: flex;
+  color: red;
+}
+
+.titular{
+  text-align: center;
+  margin-top: 250px;
+  color: white;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+}
+
+a {
+  font-size: 13px;
+  background: #179DE2;
+  text-decoration: none;
+  color: white;
+  padding: 20px 30px 20px 30px;
+}
+
+header{
+background: url(fondo-2.png);
+height: 99vh;
+background-size: cover;
+
+}
+.contenedor{
+  max-width: 1200px;
+  width: 90%;
+  margin:auto;
+}
+.servicios h3{
+  justify-content: center;
+}
+.contenedor-servicios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+
+.servicio{
+  width: 25%;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.negro {
+background: #7F8C8D;
+
+}
+.gris{
+  background: #F1948A;
+}
+.servicio h4{
+  font-size: 30px;
+  margin: 0;
+}
+.servicio img{
+  float: right;
+}
+.servicio p {
+  font-size: 14px;
+  height: 250px;
+}
+
+
+span{
+  font-size: 80px;
+  color: grey;
+}
+
+.owl-nav{
+  text-align: center;
+}
+
+.contenedor-porque {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.contenedor-porque h4 {
+  margin: : 0;
+  font-size: 20px;
+}
+.contenedor-porque p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.porque-sin{
+  width: 28%;
+}
+#blog{
+  background: #F9FAFC;
+  padding-top:  50px;
+  padding-bottom: 50px;
+}
+.contenedor-blog{
+  display: flex;
+  justify-content: space-around;
+}
+.publicacion{
+  width: 30%;
+  box-shadow: 1px 1px 14px #ccc;
+  padding-bottom: 20px;
+}
+#blog img{
+  width: 100%;
+}
+#blog h4 {
+  font-size: 23px:
+  margin:0;
+  padding: 10px;
+}
+#blog p{
+  color: #5A6169;
+  line-height:  20PX;
+  font-size: 15PX;
+  padding: 10px 20px 20px 20px;
+  margin: 0;
+}
+#blog a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#que-esperas{
+  background: linear-gradient(rgb(198, 197, 199),rgb(42, 10, 66));
+  text-align: center;
+  padding: 35px 0px 50px 0px;
+}
+#que-esperas h3 {
+  font-size:  23px;
+  color: #fff;
+  margin-bottom: 45px;
+}
+#que-esperas a{
+  padding: 15px 45px 15px 45px;
+  transition: 1s;
+}
+#que-esperas a:hover{
+  color: black;
+  transition: 1s;
+  transform: rotate(360deg);
+display: inline-block;
+}
